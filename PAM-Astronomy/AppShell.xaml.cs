@@ -6,6 +6,7 @@
         {
             InitializeComponent(); 
             Routing.RegisterRoute("astronomicalbodydetails", typeof(AstronomicalBodyView));
+
         }
     }
 }

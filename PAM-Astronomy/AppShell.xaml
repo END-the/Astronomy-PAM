@@ -8,6 +8,10 @@ Shell.FlyoutBehavior="Flyout"
 FlyoutIcon="moon.png"
 Title="PAM_Astronomy">
 
+    <ShellContent Title="Bodies" Icon="comet.png"
+ ContentTemplate="{DataTemplate local:AstronomicalBodiesPage}"/>
+
+
     <Shell.FlyoutHeader>
         <Grid HeightRequest="100"
 BackgroundColor="DarkSlateBlue">
@@ -25,11 +29,15 @@ BackgroundColor="DarkSlateBlue">
         <ShellContent Title="About" Icon="question.png"
  ContentTemplate="{DataTemplate local:AboutPageView}"/>
 
-    </FlyoutItem>    <FlyoutItem Title="About" Icon="question.png">
+    </FlyoutItem>
+
+    <FlyoutItem Title="About" Icon="question.png">
         <ShellContent
  Title="About"
  ContentTemplate="{DataTemplate local:AboutPageView}"
  Route="AboutPageView" />
-    </FlyoutItem>
+    </FlyoutItem>
+
+
 
 </Shell>
