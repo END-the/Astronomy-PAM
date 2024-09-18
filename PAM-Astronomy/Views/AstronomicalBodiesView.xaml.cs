@@ -1,3 +1,5 @@
+namespace PAM_Astronomy.Views;
+
 public partial class AstronomicalBodiesView : ContentPage
 {
 public AstronomicalBodiesView()
